@@ -1,0 +1,19 @@
+{
+    "name": "fks/prj-nodejs",
+    "description": "Example prject Node.js + PHP + MySQL",
+    "authors": [
+        {
+            "name": "Franklin Farias",
+            "email": "franklin@fksapiens.com.br"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.24"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\":"app/",
+            "FKS\\": "src/fks"
+        }
+    }
+}
